@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
 
-    // Spinner
+    // Spinner for spin
     var spinner = function () {
         setTimeout(function () {
             if ($('#spinner').length > 0) {
@@ -12,7 +12,7 @@
     spinner();
     
     
-    // Initiate the wowjs
+    // Initiate the wowjs as needed
     new WOW().init();
 
 
