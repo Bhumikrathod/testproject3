@@ -16,7 +16,7 @@
     new WOW().init();
 
 
-    // Sticky Navbar
+    // Sticky Navbar for Navigation
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
             $('.sticky-top').addClass('shadow-sm').css('top', '0px');
