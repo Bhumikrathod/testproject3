@@ -12,7 +12,7 @@
     spinner();
     
     
-    // Initiate the wowjs
+    // Initiate the wowjs as needed
     new WOW().init();
 
 
